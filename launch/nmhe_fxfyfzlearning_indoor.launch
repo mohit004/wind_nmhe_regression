@@ -1,0 +1,12 @@
+<launch>
+    <node name="nmhe_fxfyfzlearning" pkg="nmhe_fxfyfzlearning" type="nmhe_fxfyfzlearning" output="screen" />
+
+    <param name="verbose" type="bool" value="true" /> <!-- Parameter to display NMPC messages.-->
+    <param name="mocap_topic_part" type="string" value="mocap" /> <!-- Parameter to specify part of the topic name for localization data. -->
+    <param name="X0_1" type="double" value="0.0" /> <!-- Initial value for x-velocity. -->
+    <param name="X0_2" type="double" value="0.0" /> <!-- Initial value for y-velocity. -->
+    <param name="X0_3" type="double" value="0.0" /> <!-- Initial value for z-velocity. -->
+    <param name="X0_4" type="double" value="0.0" /> <!-- Initial value for x-dist. -->
+    <param name="X0_5" type="double" value="0.0" /> <!-- Initial value for y-dist. -->
+    <param name="X0_6" type="double" value="0.0" /> <!-- Initial value for z-dist. -->
+</launch>
