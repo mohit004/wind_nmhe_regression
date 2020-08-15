@@ -1,7 +1,7 @@
 # wind_nmhe_regression
 ROS package for nonlinear moving horizon estimation (NMHE)-based regression of the wind disturbance. The resulting NMHE estimates the corresponding disturbance forces to improve the tracking accuracy of the controller (NMPC). The three disturbance forces are $F^{x_dist}$, $F^{y_dist}$, and $F^{z_dist}$ and they are computed in the body-frame of the aerial robot. 
 
-This NMHE package is utilized in the following work. Please don't forget to consider citing it if you use these code in your work.
+This NMHE package is utilized in the following work. Please don't forget to consider citing it if you use these codes in your work.
 
 **Plain text:**
 ```
